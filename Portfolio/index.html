@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ms+Madi&family=Nothing+You+Could+Do&family=Playwrite+AU+SA:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header class="head">
+        <h1>My Portfolio</h1>
+        <p>I am a <span>Developer <span>,Programmer, <span>Web Developer</span></span></span></p>
+        <p class="Description">
+            Welcome to my Portfolio, Here i will show you my skills.
+        </p>
+        <nav>
+            <ul class="nav">
+                <li><a href="#home" class="fa fa-home"></a></li>
+                <li><a href="#about" class="fa fa-user"></a></li>
+                
+                <li><a href="#contact" class="fa fa-phone"></a></li>
+            </ul>
+            <h4>Fares Elbarky</h4>
+        </nav>
+    </header>
+    <section class="main">
+        <h2>Here are some informations about me:</h2>
+        <div class="info">
+            <h3>Programmer</h3>
+            <p>Intermediate usage of C++, Academic courses in C++ , and I've done many programes using C++</p>
+            <h3>Web Developer</h3>
+            <p>Online Courses were very good for me to have that experience in HTML , Css , Javascript , Express.js, Node.js , React.js , and APIs.</p>
+            </div>
+    </section>
+    <section class="aside">
+        <img src="https://scontent.fcai19-9.fna.fbcdn.net/v/t39.30808-6/492001572_2111546292591953_229850967575735041_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=ScgwNuQo7a8Q7kNvwHogugr&_nc_oc=AdmD0IS5mSvCbHkWJx-h5ht1EWDwt6H5_ZQMOTWA7bQJSFXomFnUbhyf6JQbYlz4Gko&_nc_zt=23&_nc_ht=scontent.fcai19-9.fna&_nc_gid=C-wEtLrSi9uMdZgEYp_ftA&oh=00_AfG4OiGsHZpW87gAabjXYkfznDKyafnemPcNYcaoNTVttA&oe=680DFD33" alt="Fares">
+        <p>I am Fares Elbarky, here are some Social links so you can find me as soon as possible:</p>
+        <div class="social-links">
+            <a href="https://www.facebook.com/Rumbo199" class="fa fa-facebook"></a>
+            <a href="https://www.instagram.com/fares_elbarky/" class="fa fa-instagram"></a>
+            <a href="https://github.com/FaresElbarky" class="fa fa-github"></a>
+        </div>
+    </section>
+    <footer>
+        <p>@Copyright, I hope you enjoy seeing my portfolio , and hope we work together oneday</p>
+        <p>Contact me at : +201024629199</p>
+    </footer>
+    <style>
+        html {
+            scroll-behavior: auto;
+            color-scheme: dark;
+        }
+        body {
+            font-family: cursive;
+            margin: 0;
+            padding: 10px;
+            
+        }
+        header h4{
+            font-size: 20px;
+             margin: 0;
+            padding: 10px 0;
+            font-family: "Playwrite AU SA", cursive;
+            font-weight: 400;
+            text-align: center;
+            text-shadow: 0px 0px 10px #fff , 0px 0px 20px #fff , 0px 0px 30px #fff; 
+        }
+        header h4:hover {
+            transform: scale(0.8);
+            transition: all 0.3s ease-in-out;
+            text-shadow: 0px 0px 10px #fff , 0px 0px 20px #fff , 0px 0px 30px #fff;
+        }
+        header {
+            height: 100vh;
+            
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            color: var(--main-color, black);
+            font-size: 20px;
+            margin: 0;
+            padding: 0;
+            transform: var(--main-color, black) translateY(-50%);
+            transition: transform 0.3s ease-in-out; 
+            position: relative;
+            z-index: 1;
+
+        }
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+             filter: blur(10px);
+            z-index: -1;
+        }
+        header h1:hover {
+            transform: scale(0.8);
+            transition: all 0.3s ease-in-out;
+            text-shadow: 0px 0px 10px #fff , 0px 0px 20px #fff , 0px 0px 30px #fff;
+        }
+        header p:hover {
+            transform: scale(0.8);
+            transition: all 0.3s ease-in-out;
+            text-shadow: 0px 0px 10px #fff , 0px 0px 20px #fff , 0px 0px 30px #fff;
+        }
+        header .Description:hover {
+            transform: scale(0.8);
+            transition: all 0.3s ease-in-out;
+            text-shadow: 0px 0px 10px #fff , 0px 0px 20px #fff , 0px 0px 30px #fff;
+        }
+        header .nav:hover {
+            transform: scale(1.1);
+            transition: all 0.3s ease-in-out;
+            text-shadow: 0px 0px 10px #fff , 0px 0px 20px #fff , 0px 0px 30px #fff;
+        }
+        header .nav ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        header h1 {
+            font-size: 50px;
+            margin: 0;
+            padding: 20px;
+           
+            box-sizing: border-box;
+            text-shadow: 0px 0px 10px #fff , 0px 0px 20px #fff , 0px 0px 30px #fff;
+                    color: var(--main-color, black);
+            border-radius: 30%;
+            border-bottom: none;
+            border-right: none;
+            border-left: none; 
+            transform: 0.2s ease;;
+            font-family: "Nothing You Could Do", cursive;
+            font-weight: 400;
+            font-style: italic;
+        }
+        
+        header p {
+            font-size: 20px;
+            margin: 0;
+            padding: 10px 0;
+            font-family: "Playwrite AU SA", cursive;
+            font-weight: 400;
+            text-shadow: 0px 0px 10px #fff , 0px 0px 20px #fff , 0px 0px 30px #fff; 
+        }
+        header .Description {
+            font-size: 15px;
+            margin: 0;
+            padding: 10px 0;
+            font-family: "Playwrite AU SA", cursive;
+            font-weight: 400;
+        }  
+        header .nav {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            border-radius: 50%;
+            padding: 10px;
+           padding: 20px 40px;
+           display: flex;
+           justify-content: start;
+           align-items: end;
+           font-family: "Ms Madi", cursive;
+           font-weight: 400;
+        }
+       header .nav ul {
+            color: #8aa5ff;
+            font-size: 10px;
+          }
+       
+        header .nav li {
+           margin: 0 15px;
+           display: block;
+           font-family: "Ms Madi", cursive;
+           font-weight: 400;
+            
+
+        }
+        header .nav a {
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+            padding: 10px 10px;
+            border-radius: 40px;
+            box-shadow: 0 10px 50px rgba(159, 162, 177, 0.8);
+            text-align: center;
+            overflow: hidden;
+            max-width: 100%;
+            background-color: #fff;
+        }
+        header .nav a:hover {
+            background-color: var(--main-color, black);
+            color: white;
+            transform: scale(1.1);
+            transition: all 0.3s ease-in-out;
+        }
+        header .nav a:active {
+            transform: scale(0.9);
+            transition: all 0.3s ease-in-out;
+        }
+      /* General page styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Main section styling */
+section.main {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+/* Header inside the section */
+section.main h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: "nothing you could do", cursive;
+    font-weight: bold;
+    text-shadow: 0px 0px 30px white;
+    
+}
+
+/* Info block */
+section.main .info h3 {
+    font-size: 30px;
+    margin-top: 20px;
+    color: white;
+    font-family: "Ms Madi", cursive;
+    font-weight: bolder;
+    text-shadow: 0px 0px 30px white;
+    font-style: italic;
+}
+
+section.main .info p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 8px;
+    color: #555;
+}
+/* Aside Section Styling */
+section.aside {
+    max-width: 300px;
+    margin: 50px auto;
+    padding: 25px;
+    background-color: black;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* Profile Image */
+section.aside img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid black;
+}
+
+/* Bio Text */
+section.aside p {
+    font-size: 16px;
+    color: white;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-shadow:   0px 0px 30px #fff;
+}
+
+/* Social Links Container */
+section.aside .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease;
+
+}
+
+/* Social Media Icons Styling */
+
+/* Social Media Icons */
+section.aside .social-links a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: black;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 30px;
+    gap: 40px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-shadow:   0px 0px 30px #fff;
+    
+}
+
+section.aside .social-links a:hover {
+    background-color: #2c3e50;
+    color: #fff;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    
+    text-shadow: 0px 0px 10px #fff , 0px 0px 20px #fff , 0px 0px 30px #fff;
+}
+footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-family: "Nothing you could do", cursive;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 20px;
+    box-shadow: 0 -5px 20px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    padding: 20px 0;
+    text-shadow: 0px 0px 10px #fff , 0px 0px 20px #fff , 0px 0px 30px #fff;
+}
+footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #fff;
+    text-shadow: 0px 0px 10px #fff , 0px 0px 20px #fff , 0px 0px 30px #fff;
+    font-family: "Nothing you could do", cursive;   
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px 0;
+}
+footer p:hover {
+    transform: scale(0.8);
+    transition: all 0.3s ease-in-out;
+}
+
+    </style>
+    
+</body>
+</html>
